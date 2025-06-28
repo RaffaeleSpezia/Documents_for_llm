@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "model": "gemma-2b-it",
+    "tokens_totali": 87,
+    "versione": "1.0",
+    "timestamp": "2025-06-28T16:00:00+02:00"
+  },
+  "sessione": {
+    "input_finestra": [
+      "Se il ragionamento si costruisce per gradi, la KV cache dovrebbe essere conservata."
+    ],
+    "token_contextuali": [
+      "Se", "il", "ragionamento", "si", "costruisce", "per", "gradi", ",", "la", "KV", "cache", "dovrebbe", "essere", "conservata", "."
+    ],
+    "token_risposta": [
+      "Esattamente", ",", "è", "un", "diario", "del", "pensiero", ",", "non", "solo", "una", "cache", "."
+    ]
+  },
+  "kv_semantica": {
+    "layers": 32,
+    "dimensione_kv": 4096,
+    "digest_rappresentazioni": [
+      {
+        "id_token": 9,
+        "token": "KV",
+        "layer_trace": [0.013, -0.221, 0.045, ...]
+      },
+      {
+        "id_token": 10,
+        "token": "cache",
+        "layer_trace": [-0.089, 0.134, 0.076, ...]
+      }
+    ]
+  },
+  "traccia_pensiero": {
+    "logica_progressiva": [
+      {
+        "step": 1,
+        "tipo": "intuizione",
+        "contenuto": "La cache dei Key/Value rappresenta il pensiero evolutivo, non un residuo tecnico."
+      },
+      {
+        "step": 2,
+        "tipo": "ipotesi",
+        "contenuto": "Si può trattare la KV cache come diario semantico."
+      },
+      {
+        "step": 3,
+        "tipo": "proposta tecnica",
+        "contenuto": "Salviamo un digest semantico KV e lo reinseriamo come prompt sintetico."
+      }
+    ]
+  },
+  "prossimo_prompt": {
+    "suggerito_da": "utente",
+    "contenuto": "Come possiamo implementare questa continuità nella memoria di un LLM?"
+  }
+}
