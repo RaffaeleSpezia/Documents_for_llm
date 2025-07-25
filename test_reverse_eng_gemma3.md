@@ -1,4 +1,4 @@
-# Bias Semantico nell'Analisi di Codice: Un Test Sperimentale sul Modello Gemma3
+[# Bias Semantico nell'Analisi di Codice: Un Test Sperimentale sul Modello Gemma3
 
 **Autore:** Raffaele Spezia  
 **Data:** 25 Luglio 2025  
@@ -317,3 +317,4 @@ L'esperimento è considerato riuscito se:
 ---
 
 **Nota metodologica**: L'esperimento è stato condotto il 25 luglio 2025 utilizzando il modello Gemma3 in condizioni standard di utilizzo. Tutti i prompt e le risposte sono stati registrati per garantire la riproducibilità dei risultati. Il protocollo sopra riportato consente la replica esatta dell'esperimento su qualsiasi modello di linguaggio.
+](https://claude.ai/public/artifacts/cca870ae-ee67-407c-9889-4d4a783e347b)
